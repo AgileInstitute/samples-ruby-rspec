@@ -1,11 +1,6 @@
 class MySet
-  self #this guy is the MySet class
   def initialize
     @elements = []
-  end
-
-  def foo
-    self #this guy is the instance
   end
 
   def empty?
@@ -52,4 +47,3 @@ class MySet
   end
 
 end
-
